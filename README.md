@@ -6,8 +6,8 @@ Quality Works Automation Bootcamp Cypress assignment week 8
 To run projects:
     1. Clone the project and open it in a code editor
     2. Run the command 'npm install'
-    3. To run all tests use the command 'npx cypress open' and select e2e and Chrome respectively. Once you are taken to the test runner you can select specific tests to run
-    4. Alternately, the command 'npm run test' or 'npm run test --headed' can be used to run all the tests at once. To run specific tests, the command 'npm run test:spec cypress/e2e/test/*insertnameofspecfilehere*.cy.js' can be run by substituting the highlighted section for the specific test fies under the test folder.
+    3. Alternately, the command 'npm run test' or 'npm run test --headed' can be used to run all the tests at once. To run specific tests, the command 'npm run test:spec cypress/e2e/test/*insertnameofspecfilehere*.cy.js' can be run by substituting the highlighted section for the specific test fies under the test folder.
+    4. Alternately, the command 'npx cypress open' could be used. Select e2e and Chrome respectively. Once you are taken to the test runner you can select specific tests to run.
 
 
 NB:
