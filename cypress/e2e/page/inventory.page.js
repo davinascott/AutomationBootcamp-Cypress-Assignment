@@ -17,6 +17,14 @@ class InventoryPage{
         return ('.shopping_cart_link') 
     }
 
+    get itemsPrice() { 
+        return ('.inventory_item_price') 
+    }
+
+    get selectSortDropDown() { 
+        return ('.product_sort_container') 
+    }
+
     //Page Methods
     logout(){
         cy.get(this.mainMenuBtn).click()
@@ -32,6 +40,10 @@ class InventoryPage{
 
         cy.get(addToCartBtn).should('be.visible')
         cy.get(addToCartBtn).click()
+    }
+
+    selectSort(sort){
+        cy.get(this.selectSortDropDown).select(sort)
     }
 
     openCart(){
