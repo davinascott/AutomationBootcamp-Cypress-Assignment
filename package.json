@@ -1,0 +1,23 @@
+{
+  "name": "automationbootcamp-cypress-assignment",
+  "version": "1.0.0",
+  "description": "Quality Works Automation Bootcamp Cypress assignment week 8",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davinascott/AutomationBootcamp-Cypress-Assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davinascott/AutomationBootcamp-Cypress-Assignment/issues"
+  },
+  "homepage": "https://github.com/davinascott/AutomationBootcamp-Cypress-Assignment#readme",
+  "devDependencies": {
+    "cypress": "^11.2.0"
+  }
+}
