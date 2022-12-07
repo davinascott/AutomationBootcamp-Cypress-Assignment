@@ -12,3 +12,5 @@ To run projects:
 
 NB:
 - The negative test scenarios can be found in the login portion as well as the customer information portion of the checkout scenario.
+- For the add to cart tests, to add different items to cart, you can substitute/increment the firstIndex and secondIndex variables with numbers between 0 and 5 inclusive. This feature was not implemented in the checkout tests. Please note that each item can only be added to cart once. 
+- When running the 'npx cypress open' command, the browser tends to freeze on the first run. Close the browser and run the command again.
