@@ -2,7 +2,7 @@ module.exports = {
     information: 
     [{
         scenario: 'Missing Required Field - First Name',
-        firstName: '',
+        firstName: '{backspace}',
         lastName: 'Prescot',
         zipcode: '000000'
     },

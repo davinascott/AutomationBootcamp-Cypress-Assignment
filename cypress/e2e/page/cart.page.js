@@ -28,5 +28,13 @@ class CartPage{
     get cartSecondItemRemoveBtn() {
         return ('#cart_contents_container > div > div.cart_list > div:nth-child(4) > div.cart_item_label  > div.item_pricebar > button')
     }
+
+    get checkoutBtn() {
+        return ('#checkout')
+    }
+
+    checkout(){
+        cy.get(this.checkoutBtn).click()
+    }
 }
 export default new CartPage()
